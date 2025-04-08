@@ -1,0 +1,145 @@
+{
+  "languages": {
+    "JavaScript": {
+      "show_edit_predictions": false
+    }
+  },
+  "icon_theme": "Catppuccin Mocha",
+  "vim_mode": true,
+  "theme": "Vercel Dark",
+  "ssh_connections": [
+    {
+      "host": "95.163.240.69",
+      "username": "root",
+      "projects": [
+        {
+          "paths": ["~/WEB-Simucomp"]
+        }
+      ],
+      "nickname": "SimuComp-TemaTest"
+    },
+    {
+      "host": "5.35.4.24",
+      "username": "root",
+      "port": 22,
+      "projects": [
+        {
+          "paths": ["/etc"]
+        },
+        {
+          "paths": ["/var/www"]
+        },
+        {
+          "paths": ["/var/www/casher"]
+        },
+        {
+          "paths": ["/var/www/casher_rework_admin"]
+        }
+      ]
+    },
+    {
+      "host": "5.35.4.24",
+      "username": "root",
+      "port": 22,
+      "projects": [
+        {
+          "paths": ["/var"]
+        },
+        {
+          "paths": ["/var/www/casher_test"]
+        }
+      ]
+    },
+    {
+      "host": "37.1.222.207",
+      "username": "root",
+      "port": 22,
+      "projects": [
+        {
+          "paths": ["/var/www/twin-win/frontend/twin-win"]
+        }
+      ]
+    },
+    {
+      "host": "82.29.198.13",
+      "username": "root",
+      "projects": [
+        {
+          "paths": ["/var"]
+        },
+        {
+          "paths": ["/var/www/swagatattoo-test"]
+        }
+      ]
+    }
+  ],
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "assistant": {
+    "default_model": {
+      "provider": "anthropic",
+      "model": "claude-3-5-sonnet-20240620"
+    },
+    "version": "2"
+  },
+  "assistant_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "git_diff": false,
+  "project_panel": {
+    "dock": "right",
+    "default_width": 260,
+    "indent_size": 10,
+    "auto_fold_dirs": false
+  },
+  "git": {
+    "git_gutter": "hide"
+  },
+  "soft_wrap": "editor_width",
+  "terminal": {
+    "dock": "bottom"
+  },
+  "ui_font_size": 14,
+  "ui_font_weight": 400,
+  "buffer_font_size": 14.0,
+  "buffer_font_weight": 400,
+  "snippets": {
+    "html": {
+      "prefix": "html",
+      "body": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>${1:Document}</title>\n</head>\n<body>\n\t${0}\n</body>\n</html>"
+    },
+    "div": {
+      "prefix": "div",
+      "body": "<div>\n\t${0}\n</div>"
+    },
+    "link": {
+      "prefix": "link",
+      "body": "<link rel=\"stylesheet\" href=\"${1:style.css}\">"
+    }
+  },
+  "relative_line_numbers": true,
+  "gutter": {
+    "code_actions": false,
+    "folds": false
+  },
+  "confirm_quit": true,
+  "toolbar": {
+    "selections_menu": false,
+    "quick_actions": false
+  },
+  "format_on_save": "on",
+  "ui_font_family": "JetBrains Mono",
+  "buffer_font_family": "Iosevka",
+  "restore_on_startup": "last_workspace",
+  "tabs": {
+    "file_icons": true
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "extend_comment_on_newline": false
+}
